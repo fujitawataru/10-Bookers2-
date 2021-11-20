@@ -1,0 +1,7 @@
+<% if flash[:notice] %>
+ 
+ <% end %>
+ 
+  <%= render 'books/list',book:@book,user:@user %>
+ 
+  <%= render 'books/book' ,book:@book,user:@user %>
